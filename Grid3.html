@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="h-100">
 
 <head>
     <title>Bootstrap Grids</title>
@@ -14,7 +14,7 @@
         <link rel="stylesheet" href="/CSS/site.css">
 </head>
 
-<body>
+<body class="d-flex flex-column h-100">
             <nav class="navbar navbar-expand-md navbar-dark fixed-top">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="index.html">Bootstrap Grids</a>
@@ -59,31 +59,31 @@
                 </div>
             </nav>
             <!-- ======= Hero Section ======= -->
-            <main id="hero">
-                <div class="container col-xxl-8 px-4 py-5">
-                    <div class="row align-items-center text-center g-5 py-5">
-                        <div class="col-lg-12">
-                            <h1 class="display-5 fw-bold lh-1 mb-3 mt-3">The Bootstrap Grid System</h1>
-                            <p class="lead">Here's an example of the grid system! To see more examples, use the navigation menu.
-                            </p>
-                        </div>
-                    </div>
+            <main id="flex-shrink-0">
+                <div class="container h-100 minHeight">
+                       <div class="row h-100">
+                           <!-- LEFT COLUMN -->
+                           <div class="col-7">
+                                <div class="bg-secondary text-light p-2">
+                                    
+                                </div>
+                           </div>
+                           <!-- RIGHT COLUMN -->
+                           <div class="col-5 h-100">
+                               <!-- RIGHT TOP COLUMN -->
+                                <div class="bg-dark text-light h-50">
+                                    
+                                </div>
+                                <!-- RIGHT BOTTOM COLUMN -->
+                                <div class="bg-dark text-light h-50 mt-2">
+                                
+                                </div>
+                                <div>
+                                    <button class="btn btn-light" type="button">Read Me</button>
+                                </div>
+                           </div>
+                       </div>
                 </div>
-                   <div class="container">
-                       <div class="row">
-                           <div class="col-md-12">
-                               <div class="intro"></div>
-                           </div>
-                       </div>
-                       <div class="row">
-                           <div class="col-md-6">
-                               <div class="content"></div>
-                           </div>
-                           <div class="col-md-6">
-                               <div class="content bg-alt"></div>
-                           </div>
-                       </div>
-                   </div>
             </main>
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
