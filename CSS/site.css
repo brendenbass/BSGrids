@@ -130,3 +130,7 @@ nav {
     background-size: cover;
     background-attachment: fixed;
 }
+
+#minHeight {
+    min-height: 60vh;
+}
